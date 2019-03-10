@@ -16,7 +16,7 @@ Now we have a better grasp about the internet, and how some of the things are wo
 
 1. Describe, step by step, what happens when I type `www.example.com` into my browser and try to go to the page?
  
- There is a hidden `.` at the end of this web address(`domain name`), which is the ROOT of the Internet Name Space.
+  There is a hidden `.` at the end of this web address(`domain name`), which is the ROOT of the Internet Name Space.
  From here, your operating system checks to see if it has the IP address associated with this domain name on the computer or  in its `cache`. If it does not, it uses the `RNS`(Resolving Name Server) to check a series of places, which in order include the `Root Name Server`, `Top Level Domain` servers, and `Authoritative Name Server`. These are connected to the `Domain Registrar` where domain names are registered with their corresponding IP address. 
  
  Once the `RNS` has this info, it stores it in cash, gives it to the operatins system, which gives it to the browser, which makes the connection to the corresponding server via the internet.
